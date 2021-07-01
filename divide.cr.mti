@@ -1,0 +1,15 @@
+D:/tishi/div/div_by_shift_sum.v {1 {vlog -work work -novopt -stats=none D:/tishi/div/div_by_shift_sum.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module div_by_shift_sum
+
+Top level modules:
+	div_by_shift_sum
+
+} {} {}} D:/tishi/div/div_by_shift_sum_tb.v {1 {vlog -work work -novopt -stats=none D:/tishi/div/div_by_shift_sum_tb.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module div_by_shift_sum_tb
+
+Top level modules:
+	div_by_shift_sum_tb
+
+} {} {}}

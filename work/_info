@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/tishi/bvp0209_axi3
+vdiv_by_shift_sum
+Z0 !s110 1625064189
+!i10b 1
+!s100 <Pk7^Wm8`kWdXFAV09L1i3
+Igcah:7CIM8R3MiIQ>X[6R1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/tishi/div
+w1619608020
+8D:/tishi/div/div_by_shift_sum.v
+FD:/tishi/div/div_by_shift_sum.v
+L0 2
+Z3 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z4 !s108 1625064189.000000
+!s107 D:/tishi/div/div_by_shift_sum.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|D:/tishi/div/div_by_shift_sum.v|
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+vdiv_by_shift_sum_tb
+R0
+!i10b 1
+!s100 @8beg7NoH^N9MKP`J;gg81
+IT;[?diEK?WAhS_I7Izi_43
+R1
+R2
+w1625064157
+8D:/tishi/div/div_by_shift_sum_tb.v
+FD:/tishi/div/div_by_shift_sum_tb.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/tishi/div/div_by_shift_sum_tb.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|D:/tishi/div/div_by_shift_sum_tb.v|
+!i113 1
+R5
+R6
