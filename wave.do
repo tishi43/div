@@ -1,21 +1,20 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate /div_by_shift_sum_tb/div_inst0/d1
-add wave -noupdate /div_by_shift_sum_tb/div_inst0/div_result
-add wave -noupdate /div_by_shift_sum_tb/div_inst0/div_sub_ge0
-add wave -noupdate /div_by_shift_sum_tb/div_inst0/div_sub_val
-add wave -noupdate /div_by_shift_sum_tb/div_inst0/i_d0
-add wave -noupdate /div_by_shift_sum_tb/div_inst0/i_d1
-add wave -noupdate /div_by_shift_sum_tb/div_inst0/i_valid
-add wave -noupdate /div_by_shift_sum_tb/div_inst0/o_div_remain
-add wave -noupdate /div_by_shift_sum_tb/div_inst0/o_div_result
-add wave -noupdate /div_by_shift_sum_tb/div_inst0/o_valid
-add wave -noupdate /div_by_shift_sum_tb/div_inst0/state
+add wave -noupdate -group nopipe -radix unsigned /div_by_shift_sum_tb/div_by_shift_sum_inst1/a
+add wave -noupdate -group nopipe -radix unsigned /div_by_shift_sum_tb/div_by_shift_sum_inst1/b
+add wave -noupdate -group nopipe /div_by_shift_sum_tb/div_by_shift_sum_inst1/counter
+add wave -noupdate -group nopipe /div_by_shift_sum_tb/div_by_shift_sum_inst1/div_result
+add wave -noupdate -group nopipe /div_by_shift_sum_tb/div_by_shift_sum_inst1/div_sub_val
+add wave -noupdate -group nopipe -radix unsigned /div_by_shift_sum_tb/div_by_shift_sum_inst1/result
+add wave -noupdate -group nopipe /div_by_shift_sum_tb/div_by_shift_sum_inst1/valid
+add wave -noupdate -radix unsigned /div_by_shift_sum_tb/a
+add wave -noupdate -radix unsigned /div_by_shift_sum_tb/b
+add wave -noupdate -radix unsigned /div_by_shift_sum_tb/result
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {262 ns} 0}
+WaveRestoreCursors {{Cursor 1} {38 ns} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 150
-configure wave -valuecolwidth 111
+configure wave -valuecolwidth 100
 configure wave -justifyvalue left
 configure wave -signalnamewidth 1
 configure wave -snapdistance 10
@@ -28,4 +27,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ns
 update
-WaveRestoreZoom {251 ns} {268 ns}
+WaveRestoreZoom {19963 ns} {20002 ns}
